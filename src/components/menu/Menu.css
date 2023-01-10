@@ -1,0 +1,9 @@
+.menu{
+    display: block;
+    text-align: center;
+    flex-direction: row;
+    color: #414535;
+    margin-left: auto;
+    margin-right: auto;
+
+}

@@ -1,0 +1,25 @@
+.square{
+    position: absolute;
+    width: 226px;
+    height: 242px;
+    left: 126px;
+    top: 224px;
+    background: #414535;
+    border-radius: 12px;
+}
+
+.textSobre{
+    position: absolute;
+    width: 846px;
+    height: 217px;
+    left: 442px;
+    top: 227px;
+
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+
+    color: #414535;
+}
