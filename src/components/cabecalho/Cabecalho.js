@@ -6,7 +6,7 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 export default function Cabecalho(){
     return(
         <nav className="navbar">
-            <span>Julia Marques, 18 anos</span>
+            <span className="nome">Jéssica Marques, 18 anos</span>
             <a className="buttonGit" href="http://google.com" target="_blank">
                 <AiFillGithub size={25} color="FFF"/>
             </a>   

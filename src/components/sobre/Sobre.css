@@ -10,9 +10,9 @@
 
 .textSobre{
     position: absolute;
-    width: 846px;
-    height: 217px;
+
     left: 442px;
+    right: 40px;
     top: 227px;
 
     font-family: 'Red Hat Display';
