@@ -1,8 +1,9 @@
 .frame{
-    background-color: #C19875;
+    background-color: #c1987585;
     top: 350px;
     display: block;
     position: relative;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.329);
 }
     
 .Hard{
@@ -11,6 +12,7 @@
     font-style: normal;
     color: #414535;
     font-weight: bold;
+    padding: 30px;
   
 }
 
@@ -20,6 +22,7 @@
     text-align: center; 
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 40px;
 }
 
 .circulo1{

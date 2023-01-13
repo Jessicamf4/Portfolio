@@ -14,10 +14,10 @@
 
 .g1{
     padding-top: 30px;
-    columns: 3;
+    columns: 2;
     text-align: center; 
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .tituloProjeto{
@@ -31,13 +31,15 @@
 }
 
 .container{
-    background-color: #96bbbb;
+    background-color: #96bbbb79;
     border-radius: 10px;
     display: block;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding-top: 1rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
+   
 }
 
 .img2{
@@ -53,6 +55,21 @@ button{
     border-color: #618985;
     height: auto;
     display: block;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
+
+}
+
+button:hover{
+    background-color: #96bbbb;
+    color: #fff;
+    border-radius: 12px;
+    border-color: #618985;
+    height: auto;
+    display: block;
+    cursor: pointer; 
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
+    
 }
 
 .quebra{

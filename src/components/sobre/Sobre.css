@@ -8,7 +8,10 @@
     border-radius: 12px;
 }
 
+
 .textSobre{
+    
+    font-size: 18px;
     position: absolute;
 
     left: 442px;
@@ -17,12 +20,21 @@
 
     font-family: 'Red Hat Display';
     font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
+
     line-height: 32px;
 
     color: #414535;
 }
+  @media (max-width: 1200px) {
+    .textSobre { font-size: 18px; }
+  }
+  @media (max-width: 768px) {
+    .textSobre { font-size: 14px; }
+  }
+  @media (max-width: 468px) {
+    .textSobre { font-size: 9px; }
+  }
+    
 
 .img1{
     width: 210px;
