@@ -1,12 +1,60 @@
 .projetos{
-    padding-top: 460px;
+    padding-top: 440px;
+    padding-bottom: 20px;
 }
+
 .titulo{
     text-align: center;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 450;
+    color: #414535;
+    font-weight: bold;
 }
-.g1{
-    padding-top: 20px;
-    columns: 3;
-    text-align: center;
 
+.g1{
+    padding-top: 30px;
+    columns: 3;
+    text-align: center; 
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.tituloProjeto{
+    display: block;
+    text-align: center;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    color: #414535;
+    flex-direction: column;
+
+}
+
+.container{
+    background-color: #96bbbb;
+    border-radius: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+}
+
+.img2{
+    width: 60%;
+    height: auto;
+    display: block;
+}
+
+button{
+    background-color: #618985;
+    color: #fff;
+    border-radius: 12px;
+    border-color: #618985;
+    height: auto;
+    display: block;
+}
+
+.quebra{
+    color: #fcd7ad;
 }

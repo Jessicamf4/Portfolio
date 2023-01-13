@@ -1,54 +1,43 @@
 .frame{
-    top: 370px;
-    display: flex;
     background-color: #C19875;
-    padding-top: 30px;
+    top: 350px;
+    display: block;
     position: relative;
-    padding-bottom: 30px;
-    padding-left: 70px;
-    padding-right: 70px;
-    flex-direction: column;
-    text-align: center;
-    
 }
-
+    
 .Hard{
     text-align: center;
-    color: #414535;
     font-family: 'Red Hat Display';
+    font-style: normal;
+    color: #414535;
+    font-weight: bold;
   
-}
-
-.circulo1{
-   
-    text-align: center;
-    flex-direction: row;
-    background-color: #fff;
-    color: #414535;
-    border-radius: 15px;
-    font-family: 'Red Hat Display';
-    
 }
 
 .top{
-    column-count: 5;
-    flex-direction: column;
-    column-gap: 5px;
-    text-align: center;
-    position: relative;
+    padding-top: 40px;
+    columns: 4;
+    text-align: center; 
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.circulo1{
+    border-radius: 10px;
+ 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #414535;
+    border-radius: 15px;
+    background-color: #f2e3bc;
+    font-family: 'Red Hat Display';
+    width: 50%;
 }
 
 
-.topicos{  
-   width: 120px;
-  
+.quebra{
+    color:  #C19875;
 }
 
-.topicos2{
-    width: 120px;
-}
 
-.topicos3{
-    width: 120px;
-    
-}

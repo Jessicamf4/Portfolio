@@ -1,9 +1,9 @@
 .menu{
-    display: block;
+    border-right: 100px;
+    border-left: 100px;
     text-align: center;
-    flex-direction: row;
     color: #414535;
-    margin-left: auto;
-    margin-right: auto;
+    columns: 4;
+    font-weight: bold;
 
 }

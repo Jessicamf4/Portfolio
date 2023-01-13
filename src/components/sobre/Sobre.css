@@ -3,7 +3,7 @@
     width: 226px;
     height: 242px;
     left: 126px;
-    top: 224px;
+    top: 150px;
     background: #414535;
     border-radius: 12px;
 }
@@ -13,7 +13,7 @@
 
     left: 442px;
     right: 40px;
-    top: 227px;
+    top: 160px;
 
     font-family: 'Red Hat Display';
     font-style: normal;
@@ -22,4 +22,13 @@
     line-height: 32px;
 
     color: #414535;
+}
+
+.img1{
+    width: 210px;
+    height: 230px;
+    left: 128px;
+    top: 226px;
+    border-radius: 10px;
+
 }
