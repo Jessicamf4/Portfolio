@@ -8,7 +8,7 @@ export default function Habilidades(){
     return(
         
         <nav className="frame">
-            <h2 className="Hard">HardSkills </h2>
+            <section  id="Habilidades"><h2 className="Hard">HardSkills</h2></section>
 
             <div className="top">
                 

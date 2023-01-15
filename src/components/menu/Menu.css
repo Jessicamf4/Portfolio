@@ -2,9 +2,13 @@
     border-right: 100px;
     border-left: 100px;
     text-align: center;
-    color: #fff;
     columns: 7;
     font-weight: bold;
     background-color: #618985;
     padding-bottom: 10px;
+}
+
+.text{
+    text-decoration: none;
+    color: #fff;
 }

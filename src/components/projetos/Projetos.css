@@ -30,6 +30,12 @@
 
 }
 
+.link{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    color: #fff;
+}
+
 .container{
     background-color: #96bbbb79;
     border-radius: 10px;
