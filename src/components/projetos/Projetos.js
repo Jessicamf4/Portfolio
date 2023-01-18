@@ -7,16 +7,18 @@ import Cal from "./../img/calculadora2.jpg"
 import Dados from "./../img/dados.jpg"
 import Lista from "./../img/listaTarefas.jpg"
 import Proj from "./../img/projRe.jpg"
+import Bot from "./../img/bot.jpg"
 
 export default function Projetos(){
     return(
         <nav className="projetos">
             <section id="Projetos"><h2 className="titulo">Projetos</h2></section>
 
+        
             <div className="g1">
             <div className="container">
                     <p className="tituloProjeto">Bot Telegram </p> 
-                    <img className="img2" src={JV} />
+                    <img className="img2" src={Bot} />
                     <button><a className="link" href="https://github.com/Jessicamf4/Bot-Investimento-Telegram" target='_blank'>Site</a></button>
                 </div>
                     <p className="quebra">.</p>

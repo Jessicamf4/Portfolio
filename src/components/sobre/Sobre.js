@@ -1,7 +1,7 @@
 import React from "react";
 import "./Sobre.css";
 
-import My from "./../img/my.jpg"
+import My from "./../img/fotom.jpg"
 
 export default function Sobre(){
     return(

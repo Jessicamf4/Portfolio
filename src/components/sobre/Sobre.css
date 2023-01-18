@@ -5,7 +5,7 @@
     left: 126px;
     top: 150px;
     background: #414535;
-    border-radius: 12px;
+    border-radius: 100%;
 }
 
 
@@ -38,9 +38,9 @@
 
 .img1{
     width: 210px;
-    height: 230px;
+    height: auto;
     left: 128px;
     top: 226px;
-    border-radius: 10px;
+    border-radius: 100%;
 
 }
