@@ -1,5 +1,5 @@
 .projetos{
-    padding-top: 440px;
+    padding-top: 400px;
     padding-bottom: 20px;
 }
 
@@ -9,15 +9,14 @@
     font-style: normal;
     font-weight: 450;
     color: #414535;
-    font-weight: bold;
 }
 
 .g1{
-    padding-top: 30px;
+    padding-top: 50px;
     columns: 2;
     text-align: center; 
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .tituloProjeto{
@@ -29,24 +28,28 @@
     flex-direction: column;
 
 }
+@media (max-width: 600px) {
+    .tituloProjeto { font-size: 10px;   
+  }
+  }
 
 .link{
     font-family: 'Red Hat Display';
     font-style: normal;
-    color: #fff;
+    text-decoration: none;
 }
 
 .container{
-    background-color: #96bbbb79;
+    background-color: #E8E8E8;
     border-radius: 10px;
     display: block;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding-top: 1rem;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
-   
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.137); 
 }
+
 
 .img2{
     width: 60%;
@@ -55,23 +58,28 @@
 }
 
 button{
-    background-color: #618985;
-    color: #fff;
-    border-radius: 12px;
-    border-color: #618985;
-    height: auto;
+    background-color: #f7f5e6b2;
+    color: #333A56;
+    text-decoration: none;
+    border-radius: 6px;
+    border-color: #F7f5e6;
+    height: 25px;
+    width: auto;
     display: block;
     cursor: pointer;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.288);
+    border: rgba(0, 0, 0, 0.096);
 
 }
 
 button:hover{
-    background-color: #96bbbb;
-    color: #fff;
-    border-radius: 12px;
-    border-color: #618985;
-    height: auto;
+    background-color: #52658f62;
+    color: #F7f5e6;
+    text-decoration: none;
+    border-radius: 6px;
+    border-color: #52658f60;
+    height: 25px;
+    width: auto;
     display: block;
     cursor: pointer; 
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);

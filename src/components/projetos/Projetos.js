@@ -66,9 +66,9 @@ export default function Projetos(){
                 <p className="quebra">.</p>
                 
                 <div className="container">
-                    <p className="tituloProjeto">Projeto Reciclagem</p>
+                    <p className="tituloProjeto">Controle de Estoque</p>
                     <img className="img2" src={Proj} />
-                    <button><a className="link" href="https://jessicamf4.github.io/Projeto-Reciclagem/" target='_blank'>Site</a> </button>
+                    <button><a className="link" href="https://github.com/Jessicamf4/controleEstoque" target='_blank'>Site</a> </button>
                 </div>
             </div>
         </nav>

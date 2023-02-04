@@ -4,11 +4,15 @@
     text-align: center;
     columns: 7;
     font-weight: bold;
-    background-color: #618985;
+    background-color: #333A56;
     padding-bottom: 10px;
 }
 
 .text{
     text-decoration: none;
-    color: #fff;
+    color: #e8e8e8;
 }
+@media (max-width: 600px) {
+    .text { font-size: 12px;
+  }
+  }

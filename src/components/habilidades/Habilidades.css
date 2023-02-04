@@ -1,9 +1,9 @@
 .frame{
-    background-color: #c1987585;
-    top: 350px;
+    background-color: #52658f3a;
+    top: 325px;
     display: block;
     position: relative;
-    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.329);
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.329);
 }
     
 .Hard{
@@ -34,10 +34,14 @@
     flex-wrap: wrap;
     color: #414535;
     border-radius: 15px;
-    background-color: #f2e3bc;
+    background-color: #f7f5e6;
     font-family: 'Red Hat Display';
     width: 50%;
 }
+@media (max-width: 600px) {
+    .circulo1 { font-size: 10px;   
+  }
+  }
 
 
 .quebra{

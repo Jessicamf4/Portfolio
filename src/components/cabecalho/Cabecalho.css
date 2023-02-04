@@ -1,9 +1,9 @@
 .navbar{
    padding-right: 40px;
     text-align: right;
-    background-color: #618985;
+    background-color: #333A56;
     
-    color: aliceblue;
+    color: #e8e8e8;
     font-weight: bold;
 }
 
@@ -15,6 +15,12 @@
 .buttonLinke{
     text-align: right;
     padding: 8px;
+
+}
+
+.buttonDown{
+    text-align: right;
+    padding: 8px;
 }
 .nome{
     display: flex;
@@ -24,3 +30,7 @@
     font-weight: bold;
     padding-left: 30px;
 }
+@media (max-width: 600px) {
+    .nome { font-size: 20px;   
+  }
+  }

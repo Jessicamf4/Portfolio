@@ -2,7 +2,7 @@
 
 .textSobre{
     
-    font-size: 18px;
+    font-size: 16px;
     position: absolute;
 
     left: 442px;
@@ -17,21 +17,34 @@
     color: #414535;
 }
   @media (max-width: 1200px) {
-    .textSobre { font-size: 18px; }
+    .textSobre { font-size: 16px; }
   }
   @media (max-width: 768px) {
     .textSobre { font-size: 14px; }
   }
-  @media (max-width: 468px) {
-    .textSobre { font-size: 9px; }
+  @media (max-width: 600px) {
+    .textSobre { font-size: 9px;
+      position: absolute;
+      left: 10%;
+      right: 40px;
+      top: 250px;
+  }
   }
     
-
 .img1{
+    position: absolute;
+    left: 145px;
+    right: 40px;
+    top: 135px;
     width: 210px;
     height: auto;
-    left: 128px;
-    top: 226px;
     border-radius: 100%;
+}
 
+@media (max-width:600px) {
+  .img1 {
+    position: absolute;
+    text-align: center;
+    width: 110px;
+    height: auto;  }
 }
