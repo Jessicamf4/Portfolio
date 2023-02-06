@@ -5,6 +5,11 @@
     position: relative;
     box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.329);
 }
+
+@media (max-width: 600px) {
+    .frame { top: 360px;   
+  }
+  }
     
 .Hard{
     text-align: center;
@@ -21,31 +26,27 @@
     padding-top: 40px;
     columns: 4;
     text-align: center; 
-    padding-left: 30px;
-    padding-right: 30px;
     padding-bottom: 40px;
 }
 
 .circulo1{
-    border-radius: 10px;
- 
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    display: block;
     color: #414535;
-    border-radius: 15px;
+    border-radius: 13px;
     background-color: #f7f5e6;
     font-family: 'Red Hat Display';
     width: 50%;
+    text-align: center;
 }
 @media (max-width: 600px) {
-    .circulo1 { font-size: 10px;   
+    .circulo1 { font-size: 12px;   
   }
   }
 
 
 .quebra{
-    color:  #C19875;
+    color:  #52658f3a;
 }
 
 

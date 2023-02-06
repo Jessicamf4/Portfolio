@@ -8,7 +8,7 @@ import "./CV.pdf";
 export default function Cabecalho(){
     return(
         <nav className="navbar">
-            <span className="nome">Jéssica Marques, 18 anos</span>
+            <span className="nome">Jéssica Marques</span>
             <a className="buttonDown" href="./CV.pdf" download> 
             <MdDownloadForOffline size={25} color="FFF"/>
             </a>
