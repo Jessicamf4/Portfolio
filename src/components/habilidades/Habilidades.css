@@ -4,10 +4,12 @@
     display: block;
     position: relative;
     box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.329);
+    padding-left: 60px;
+    padding-right: 40px;
 }
 
 @media (max-width: 600px) {
-    .frame { top: 360px;   
+    .frame { top: 370px;   
   }
   }
     
@@ -30,7 +32,6 @@
 }
 
 .circulo1{
-    flex-direction: column;
     display: block;
     color: #414535;
     border-radius: 13px;
@@ -38,7 +39,9 @@
     font-family: 'Red Hat Display';
     width: 50%;
     text-align: center;
+
 }
+
 @media (max-width: 600px) {
     .circulo1 { font-size: 12px;   
   }
