@@ -1,10 +1,16 @@
-# Getting Started with Create React App
+# My 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+This is a project about my resume, in which I talk a little about myself, with my main professional skills and some of my main projects done so far!
+
+<img src="imgtela.png">
+<img src="imgproj.png">
+
 
 ### `npm start`
 
